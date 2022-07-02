@@ -1,5 +1,15 @@
 fn main() {
-    let s1 = String::from("hello");
-    let s2 = s1.clone();
-    println!("{}, {}", s1, s2);
+    let s = String::from("hello");
+    take_ownership(s);
+
+    let x = 5;
+    makes_copy(x);
+}
+
+fn take_ownership(some_string: String){
+    println!("{}", some_string);
+}
+
+fn makes_copy(some_integer: i32) {
+    println!("{}", some_integer);
 }
