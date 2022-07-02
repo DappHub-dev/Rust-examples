@@ -1,0 +1,1 @@
+C:\Users\Smile\Videos\Projects\Rust\Rust-examples\functions-ownership_and_scope\target\debug\functions-ownership_and_scope.exe: C:\Users\Smile\Videos\Projects\Rust\Rust-examples\functions-ownership_and_scope\src\main.rs
